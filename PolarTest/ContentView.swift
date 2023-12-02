@@ -6,8 +6,10 @@
 //
 
 import SwiftUI
+import PolarBleSdk
 
 struct ContentView: View {
+    @EnvironmentObject private var bleSdkManager: PolarBleSdkManager
     @State private var selection: Tab = .record
     
     enum Tab {
@@ -18,6 +20,7 @@ struct ContentView: View {
     var body: some View {
         TabView(selection: $selection) {
             RecordingView()
+                .environmentObject(bleSdkManager)
                 .tabItem {
                     Label("Record", systemImage: "waveform.circle")
                 }

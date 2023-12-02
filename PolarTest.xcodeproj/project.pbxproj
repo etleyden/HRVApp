@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A69AC13B2B18EBB6004F9121 /* RecordingListItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AC13A2B18EBB6004F9121 /* RecordingListItemModel.swift */; };
+		A67438EF2B19410200594096 /* sampleCategories.json in Resources */ = {isa = PBXBuildFile; fileRef = A67438EE2B19410200594096 /* sampleCategories.json */; };
+		A67438F12B19415400594096 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67438F02B19415400594096 /* Category.swift */; };
+		A69AC13B2B18EBB6004F9121 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69AC13A2B18EBB6004F9121 /* Recording.swift */; };
 		A69D7B4D2B138D46006C97B1 /* PolarTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D7B4C2B138D46006C97B1 /* PolarTestApp.swift */; };
 		A69D7B4F2B138D46006C97B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D7B4E2B138D46006C97B1 /* ContentView.swift */; };
 		A69D7B512B138D49006C97B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69D7B502B138D49006C97B1 /* Assets.xcassets */; };
@@ -19,8 +21,24 @@
 		A69D7B7A2B139FAB006C97B1 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D7B792B139FAB006C97B1 /* RecordingView.swift */; };
 		A69D7B7E2B13A546006C97B1 /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D7B7D2B13A546006C97B1 /* DataView.swift */; };
 		A69D7B812B13A61B006C97B1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D7B802B13A61B006C97B1 /* SettingsView.swift */; };
-		A6AF117D2B18DF40000B6A8C /* CustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AF117C2B18DF40000B6A8C /* CustomShapes.swift */; };
-		A6EDB57C2B13C2940094FBFB /* RecordingListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EDB57B2B13C2940094FBFB /* RecordingListItem.swift */; };
+		A6AFE1B62B1BE04B001FCEA5 /* PolarBleSdkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AFE1B52B1BE04B001FCEA5 /* PolarBleSdkManager.swift */; };
+		A6AFE1C82B1BE0DC001FCEA5 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AFE1BA2B1BE0DA001FCEA5 /* Messages.swift */; };
+		A6AFE1C92B1BE0DC001FCEA5 /* LedAnimationFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AFE1C02B1BE0DB001FCEA5 /* LedAnimationFeature.swift */; };
+		A6AFE1CA2B1BE0DC001FCEA5 /* H10ExerciseRecordingFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AFE1C22B1BE0DB001FCEA5 /* H10ExerciseRecordingFeature.swift */; };
+		A6AFE1CB2B1BE0DC001FCEA5 /* DeviceTimeSetupFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AFE1C42B1BE0DC001FCEA5 /* DeviceTimeSetupFeature.swift */; };
+		A6AFE1CC2B1BE0DC001FCEA5 /* OfflineRecordingEntries.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AFE1C62B1BE0DC001FCEA5 /* OfflineRecordingEntries.swift */; };
+		A6AFE1CD2B1BE0DC001FCEA5 /* DeviceConnectionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AFE1BB2B1BE0DA001FCEA5 /* DeviceConnectionState.swift */; };
+		A6AFE1CE2B1BE0DC001FCEA5 /* SdkModeFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AFE1C32B1BE0DC001FCEA5 /* SdkModeFeature.swift */; };
+		A6AFE1CF2B1BE0DC001FCEA5 /* OfflineRecordingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AFE1C72B1BE0DC001FCEA5 /* OfflineRecordingData.swift */; };
+		A6AFE1D02B1BE0DC001FCEA5 /* OnlineStreamingFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AFE1BD2B1BE0DA001FCEA5 /* OnlineStreamingFeature.swift */; };
+		A6AFE1D12B1BE0DC001FCEA5 /* DeviceInfoFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AFE1BC2B1BE0DA001FCEA5 /* DeviceInfoFeature.swift */; };
+		A6AFE1D22B1BE0DC001FCEA5 /* BatteryStatusFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AFE1C52B1BE0DC001FCEA5 /* BatteryStatusFeature.swift */; };
+		A6AFE1D32B1BE0DC001FCEA5 /* OfflineRecordingFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AFE1C12B1BE0DB001FCEA5 /* OfflineRecordingFeature.swift */; };
+		A6AFE1D42B1BE0DC001FCEA5 /* RecordingSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AFE1BE2B1BE0DA001FCEA5 /* RecordingSettings.swift */; };
+		A6AFE1D52B1BE0DC001FCEA5 /* DeviceSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AFE1BF2B1BE0DB001FCEA5 /* DeviceSearch.swift */; };
+		A6EDB57C2B13C2940094FBFB /* RecordingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EDB57B2B13C2940094FBFB /* RecordingRow.swift */; };
+		A6F2E3442B19004F00A642AD /* sampleRecordings.json in Resources */ = {isa = PBXBuildFile; fileRef = A6F2E3432B19004F00A642AD /* sampleRecordings.json */; };
+		A6F2E3462B19009300A642AD /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F2E3452B19009300A642AD /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +59,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A69AC13A2B18EBB6004F9121 /* RecordingListItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingListItemModel.swift; sourceTree = "<group>"; };
+		A67438EE2B19410200594096 /* sampleCategories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sampleCategories.json; sourceTree = "<group>"; };
+		A67438F02B19415400594096 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		A69AC13A2B18EBB6004F9121 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
 		A69D7B492B138D46006C97B1 /* PolarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69D7B4C2B138D46006C97B1 /* PolarTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolarTestApp.swift; sourceTree = "<group>"; };
 		A69D7B4E2B138D46006C97B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,8 +75,24 @@
 		A69D7B792B139FAB006C97B1 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
 		A69D7B7D2B13A546006C97B1 /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
 		A69D7B802B13A61B006C97B1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		A6AF117C2B18DF40000B6A8C /* CustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapes.swift; sourceTree = "<group>"; };
-		A6EDB57B2B13C2940094FBFB /* RecordingListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingListItem.swift; sourceTree = "<group>"; };
+		A6AFE1B52B1BE04B001FCEA5 /* PolarBleSdkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolarBleSdkManager.swift; sourceTree = "<group>"; };
+		A6AFE1BA2B1BE0DA001FCEA5 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		A6AFE1BB2B1BE0DA001FCEA5 /* DeviceConnectionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceConnectionState.swift; sourceTree = "<group>"; };
+		A6AFE1BC2B1BE0DA001FCEA5 /* DeviceInfoFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoFeature.swift; sourceTree = "<group>"; };
+		A6AFE1BD2B1BE0DA001FCEA5 /* OnlineStreamingFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineStreamingFeature.swift; sourceTree = "<group>"; };
+		A6AFE1BE2B1BE0DA001FCEA5 /* RecordingSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingSettings.swift; sourceTree = "<group>"; };
+		A6AFE1BF2B1BE0DB001FCEA5 /* DeviceSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSearch.swift; sourceTree = "<group>"; };
+		A6AFE1C02B1BE0DB001FCEA5 /* LedAnimationFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedAnimationFeature.swift; sourceTree = "<group>"; };
+		A6AFE1C12B1BE0DB001FCEA5 /* OfflineRecordingFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineRecordingFeature.swift; sourceTree = "<group>"; };
+		A6AFE1C22B1BE0DB001FCEA5 /* H10ExerciseRecordingFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H10ExerciseRecordingFeature.swift; sourceTree = "<group>"; };
+		A6AFE1C32B1BE0DC001FCEA5 /* SdkModeFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SdkModeFeature.swift; sourceTree = "<group>"; };
+		A6AFE1C42B1BE0DC001FCEA5 /* DeviceTimeSetupFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTimeSetupFeature.swift; sourceTree = "<group>"; };
+		A6AFE1C52B1BE0DC001FCEA5 /* BatteryStatusFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryStatusFeature.swift; sourceTree = "<group>"; };
+		A6AFE1C62B1BE0DC001FCEA5 /* OfflineRecordingEntries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineRecordingEntries.swift; sourceTree = "<group>"; };
+		A6AFE1C72B1BE0DC001FCEA5 /* OfflineRecordingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineRecordingData.swift; sourceTree = "<group>"; };
+		A6EDB57B2B13C2940094FBFB /* RecordingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingRow.swift; sourceTree = "<group>"; };
+		A6F2E3432B19004F00A642AD /* sampleRecordings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sampleRecordings.json; sourceTree = "<group>"; };
+		A6F2E3452B19009300A642AD /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +121,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A69AC1392B18EBA4004F9121 /* Models */ = {
+		A67438ED2B19401100594096 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A69AC13A2B18EBB6004F9121 /* RecordingListItemModel.swift */,
+				A69AC13A2B18EBB6004F9121 /* Recording.swift */,
+				A67438F02B19415400594096 /* Category.swift */,
+				A6F2E3452B19009300A642AD /* ModelData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A67438F22B19441700594096 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6F2E3432B19004F00A642AD /* sampleRecordings.json */,
+				A67438EE2B19410200594096 /* sampleCategories.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		A69D7B402B138D46006C97B1 = {
@@ -116,13 +163,14 @@
 		A69D7B4B2B138D46006C97B1 /* PolarTest */ = {
 			isa = PBXGroup;
 			children = (
-				A69AC1392B18EBA4004F9121 /* Models */,
 				A69D7B4C2B138D46006C97B1 /* PolarTestApp.swift */,
 				A69D7B4E2B138D46006C97B1 /* ContentView.swift */,
 				A69D7B7F2B13A54F006C97B1 /* Views */,
+				A67438ED2B19401100594096 /* Models */,
+				A67438F22B19441700594096 /* Resources */,
+				A6AFE1B72B1BE05A001FCEA5 /* PolarSdkManager */,
 				A69D7B502B138D49006C97B1 /* Assets.xcassets */,
 				A69D7B522B138D49006C97B1 /* Preview Content */,
-				A6AF117C2B18DF40000B6A8C /* CustomShapes.swift */,
 			);
 			path = PolarTest;
 			sourceTree = "<group>";
@@ -158,9 +206,31 @@
 				A69D7B792B139FAB006C97B1 /* RecordingView.swift */,
 				A69D7B7D2B13A546006C97B1 /* DataView.swift */,
 				A69D7B802B13A61B006C97B1 /* SettingsView.swift */,
-				A6EDB57B2B13C2940094FBFB /* RecordingListItem.swift */,
+				A6EDB57B2B13C2940094FBFB /* RecordingRow.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A6AFE1B72B1BE05A001FCEA5 /* PolarSdkManager */ = {
+			isa = PBXGroup;
+			children = (
+				A6AFE1B52B1BE04B001FCEA5 /* PolarBleSdkManager.swift */,
+				A6AFE1C52B1BE0DC001FCEA5 /* BatteryStatusFeature.swift */,
+				A6AFE1BB2B1BE0DA001FCEA5 /* DeviceConnectionState.swift */,
+				A6AFE1BC2B1BE0DA001FCEA5 /* DeviceInfoFeature.swift */,
+				A6AFE1BF2B1BE0DB001FCEA5 /* DeviceSearch.swift */,
+				A6AFE1C42B1BE0DC001FCEA5 /* DeviceTimeSetupFeature.swift */,
+				A6AFE1C22B1BE0DB001FCEA5 /* H10ExerciseRecordingFeature.swift */,
+				A6AFE1C02B1BE0DB001FCEA5 /* LedAnimationFeature.swift */,
+				A6AFE1BA2B1BE0DA001FCEA5 /* Messages.swift */,
+				A6AFE1C72B1BE0DC001FCEA5 /* OfflineRecordingData.swift */,
+				A6AFE1C62B1BE0DC001FCEA5 /* OfflineRecordingEntries.swift */,
+				A6AFE1C12B1BE0DB001FCEA5 /* OfflineRecordingFeature.swift */,
+				A6AFE1BD2B1BE0DA001FCEA5 /* OnlineStreamingFeature.swift */,
+				A6AFE1BE2B1BE0DA001FCEA5 /* RecordingSettings.swift */,
+				A6AFE1C32B1BE0DC001FCEA5 /* SdkModeFeature.swift */,
+			);
+			path = PolarSdkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +344,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A69D7B542B138D49006C97B1 /* Preview Assets.xcassets in Resources */,
+				A67438EF2B19410200594096 /* sampleCategories.json in Resources */,
 				A69D7B512B138D49006C97B1 /* Assets.xcassets in Resources */,
+				A6F2E3442B19004F00A642AD /* sampleRecordings.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,13 +371,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A69AC13B2B18EBB6004F9121 /* RecordingListItemModel.swift in Sources */,
-				A6EDB57C2B13C2940094FBFB /* RecordingListItem.swift in Sources */,
+				A6AFE1CE2B1BE0DC001FCEA5 /* SdkModeFeature.swift in Sources */,
+				A69AC13B2B18EBB6004F9121 /* Recording.swift in Sources */,
+				A6AFE1D32B1BE0DC001FCEA5 /* OfflineRecordingFeature.swift in Sources */,
+				A6AFE1C92B1BE0DC001FCEA5 /* LedAnimationFeature.swift in Sources */,
+				A6AFE1B62B1BE04B001FCEA5 /* PolarBleSdkManager.swift in Sources */,
+				A6EDB57C2B13C2940094FBFB /* RecordingRow.swift in Sources */,
+				A6AFE1CC2B1BE0DC001FCEA5 /* OfflineRecordingEntries.swift in Sources */,
 				A69D7B812B13A61B006C97B1 /* SettingsView.swift in Sources */,
+				A6AFE1D22B1BE0DC001FCEA5 /* BatteryStatusFeature.swift in Sources */,
+				A6AFE1CF2B1BE0DC001FCEA5 /* OfflineRecordingData.swift in Sources */,
 				A69D7B7E2B13A546006C97B1 /* DataView.swift in Sources */,
+				A6AFE1D52B1BE0DC001FCEA5 /* DeviceSearch.swift in Sources */,
+				A6AFE1CD2B1BE0DC001FCEA5 /* DeviceConnectionState.swift in Sources */,
+				A6AFE1D12B1BE0DC001FCEA5 /* DeviceInfoFeature.swift in Sources */,
+				A6AFE1D42B1BE0DC001FCEA5 /* RecordingSettings.swift in Sources */,
 				A69D7B4F2B138D46006C97B1 /* ContentView.swift in Sources */,
+				A6AFE1CA2B1BE0DC001FCEA5 /* H10ExerciseRecordingFeature.swift in Sources */,
+				A6AFE1C82B1BE0DC001FCEA5 /* Messages.swift in Sources */,
+				A67438F12B19415400594096 /* Category.swift in Sources */,
+				A6F2E3462B19009300A642AD /* ModelData.swift in Sources */,
+				A6AFE1D02B1BE0DC001FCEA5 /* OnlineStreamingFeature.swift in Sources */,
+				A6AFE1CB2B1BE0DC001FCEA5 /* DeviceTimeSetupFeature.swift in Sources */,
 				A69D7B4D2B138D46006C97B1 /* PolarTestApp.swift in Sources */,
-				A6AF117D2B18DF40000B6A8C /* CustomShapes.swift in Sources */,
 				A69D7B7A2B139FAB006C97B1 /* RecordingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

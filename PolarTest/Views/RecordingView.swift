@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct RecordingView: View {
+    @EnvironmentObject var bleSdkManager: PolarBleSdkManager
     
     var body: some View {
         VStack {

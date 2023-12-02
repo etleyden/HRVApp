@@ -7,7 +7,9 @@
 
 import SwiftUI
 
-struct RecordingListItem: View {
+struct RecordingRow: View {
+    var recording: Recording
+    
     var body: some View {
         HStack {
             Spacer()
@@ -19,19 +21,14 @@ struct RecordingListItem: View {
             Spacer()
             VStack (alignment: .leading) {
                 //name of recording
-                Text("exercise-11.8.23")
+                Text(recording.name)
                     .bold()
                     
                 HStack { // Tags go here
-                    Text("exercise")
+                    Text(recording.category)
                         .padding([.leading, .trailing], 5)
                         .background(in: Capsule())
                         .backgroundStyle(.green)
-                        .foregroundColor(.white)
-                    Text("aerobic")
-                        .padding([.leading, .trailing], 5)
-                        .background(in: Capsule())
-                        .backgroundStyle(.purple)
                         .foregroundColor(.white)
                 }
             }
@@ -62,5 +59,5 @@ struct RecordingListItem: View {
 }
 
 #Preview {
-    RecordingListItem()
+    RecordingRow(recording: recordings[0])
 }
