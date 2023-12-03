@@ -90,6 +90,7 @@
 		A6AFE1C52B1BE0DC001FCEA5 /* BatteryStatusFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryStatusFeature.swift; sourceTree = "<group>"; };
 		A6AFE1C62B1BE0DC001FCEA5 /* OfflineRecordingEntries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineRecordingEntries.swift; sourceTree = "<group>"; };
 		A6AFE1C72B1BE0DC001FCEA5 /* OfflineRecordingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineRecordingData.swift; sourceTree = "<group>"; };
+		A6AFE1D92B1BEB85001FCEA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A6EDB57B2B13C2940094FBFB /* RecordingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingRow.swift; sourceTree = "<group>"; };
 		A6F2E3432B19004F00A642AD /* sampleRecordings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sampleRecordings.json; sourceTree = "<group>"; };
 		A6F2E3452B19009300A642AD /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -163,6 +164,7 @@
 		A69D7B4B2B138D46006C97B1 /* PolarTest */ = {
 			isa = PBXGroup;
 			children = (
+				A6AFE1D92B1BEB85001FCEA5 /* Info.plist */,
 				A69D7B4C2B138D46006C97B1 /* PolarTestApp.swift */,
 				A69D7B4E2B138D46006C97B1 /* ContentView.swift */,
 				A69D7B7F2B13A54F006C97B1 /* Views */,
@@ -561,6 +563,8 @@
 				DEVELOPMENT_TEAM = Q599CY9HZ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PolarTest/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We use Bluetooth to connect to your Polar Devices";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -591,6 +595,8 @@
 				DEVELOPMENT_TEAM = Q599CY9HZ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PolarTest/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We use Bluetooth to connect to your Polar Devices";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

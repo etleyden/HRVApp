@@ -162,6 +162,7 @@ class PolarBleSdkManager : ObservableObject {
                 }
             }
             Task { @MainActor in
+                //note: success does not mean devices have been found, just that device Search was successful
                 self.deviceSearch.isSearching = DeviceSearchState.success
             }
         } catch let err {

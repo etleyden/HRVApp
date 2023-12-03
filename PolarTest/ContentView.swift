@@ -7,9 +7,11 @@
 
 import SwiftUI
 import PolarBleSdk
+import RxSwift
+import CoreBluetooth
 
 struct ContentView: View {
-    @EnvironmentObject private var bleSdkManager: PolarBleSdkManager
+    private var bleSdkManager = PolarBleSdkManager()
     @State private var selection: Tab = .record
     
     enum Tab {
